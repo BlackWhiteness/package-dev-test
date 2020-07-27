@@ -6,6 +6,7 @@
 ## 安装
 
 ```shell
+
 $ composer require wangshuai/weather -vvv
 ```
 
