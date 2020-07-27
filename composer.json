@@ -1,0 +1,22 @@
+{
+    "name": "wangshuai/weather",
+    "description": "A weather SDK.",
+    "autoload": {
+        "psr-4": {
+            "Wangshuai\\Weather\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wangshuai\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
